@@ -1,0 +1,490 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1788783161094542, "dur": 1200382, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1788783161094791, "dur": 7213, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1788783161102006, "dur": 52841, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1788783161154849, "dur": 608467, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1788783161763318, "dur": 517605, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1788783162280926, "dur": 13998, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1788783162295591, "dur": 8, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1788783161134750, "dur":1420, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783161136181, "dur":96, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1788783161136292, "dur":16, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1788783161136308, "dur":621, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1788783161136963, "dur":589, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783161137552, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783161143295, "dur":339, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783161143634, "dur":109, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783161143743, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783161143745, "dur":42, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783161143787, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783161143790, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783161143807, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783161143808, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783161143817, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783161143818, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783161143827, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783161143828, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783161143844, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783161143845, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783161143854, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783161143854, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783161143874, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783161143875, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783161143878, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783161143879, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783161143884, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783161143885, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783161143889, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783161143890, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783161143895, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783161143895, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783161143912, "dur":1031, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1788783161137436, "dur":138, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1788783161137574, "dur":5875, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1788783161137436, "dur":127, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1788783161137563, "dur":5869, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1788783161137593, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1788783161137593, "dur":5799, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1788783161137472, "dur":110, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1788783161137582, "dur":5742, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1788783161137504, "dur":87, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1788783161137591, "dur":5871, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1788783161137547, "dur":7, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1788783161137554, "dur":5731, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1788783161137701, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1788783161137702, "dur":5719, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1788783161137632, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1788783161137632, "dur":5781, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1788783161137669, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1788783161137669, "dur":5662, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1788783161137728, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1788783161137728, "dur":5589, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1788783161137765, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1788783161137766, "dur":5540, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1788783161137794, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1788783161137794, "dur":5501, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783161146128, "dur":459, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1788783162295707, "dur": 195, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1788783161510725, "dur": 236118, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1788783161511514, "dur": 34865, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1788783161724443, "dur": 12858, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1788783161737305, "dur": 9531, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1788783161737853, "dur": 8036, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1788783161750245, "dur": 989, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1788783161749662, "dur": 1591, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1788783162295944, "dur": 115, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1788783161794770, "dur":1102, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783161795878, "dur":84, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1788783161795969, "dur":19, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1788783161795988, "dur":359, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1788783161796368, "dur":371, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783161796739, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783162271584, "dur":123, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783162271707, "dur":24, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783162271731, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783162271733, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783162271752, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783162271753, "dur":32, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783162271785, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783162271787, "dur":49, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783162271836, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783162271840, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783162271851, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783162271852, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783162271861, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783162271862, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783162271868, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783162271869, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783162271872, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783162271873, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783162271882, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783162271883, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783162271886, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783162271887, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783162271892, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783162271893, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783162271897, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783162271907, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783162271923, "dur":1181, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1788783161797149, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1788783161797150, "dur":3214, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1788783161800365, "dur":11138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1788783161811504, "dur":296, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1788783161811802, "dur":9237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1788783161821040, "dur":521, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1788783161821563, "dur":4667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1788783161826231, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1788783161826393, "dur":4614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1788783161831008, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1788783161831159, "dur":5947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1788783161837107, "dur":188, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1788783161837296, "dur":4142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1788783161841439, "dur":290, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1788783161841730, "dur":6398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1788783161848128, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1788783161848261, "dur":5657, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1788783161853918, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1788783161854059, "dur":5485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1788783161859545, "dur":799, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1788783161860348, "dur":23277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1788783161883626, "dur":578, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1788783161884206, "dur":1117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1788783161885324, "dur":185, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1788783161885511, "dur":1098, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1788783161886610, "dur":619, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1788783161887232, "dur":27038, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1788783161914271, "dur":492, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1788783161914767, "dur":52557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1788783161967325, "dur":225, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1788783161967554, "dur":152784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1788783162120339, "dur":362, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1788783162120702, "dur":150849, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1788783161797284, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1788783161797284, "dur":3240, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1788783161800527, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1788783161800770, "dur":274, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1788783161801045, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1788783161801120, "dur":564, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1788783161801684, "dur":92222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1788783161893907, "dur":449, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1788783161894360, "dur":1143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1788783161895503, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1788783161895635, "dur":1124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1788783161896759, "dur":156, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1788783161896917, "dur":88106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1788783161985024, "dur":209, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1788783161985236, "dur":38451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1788783162023688, "dur":459, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1788783162024151, "dur":90643, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1788783162114796, "dur":448, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1788783162115248, "dur":156301, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1788783161797114, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1788783161797115, "dur":3208, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1788783161800346, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1788783161800352, "dur":165, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1788783161800523, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1788783161800525, "dur":1095, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1788783161801621, "dur":39122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1788783161840744, "dur":407, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1788783161841152, "dur":4013, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1788783161845166, "dur":315, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1788783161845483, "dur":4151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1788783161849635, "dur":194, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1788783161849832, "dur":3930, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1788783161853763, "dur":154, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1788783161853919, "dur":4784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1788783161858703, "dur":421, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1788783161859125, "dur":56857, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1788783161915983, "dur":197, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1788783161916183, "dur":83233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1788783161999417, "dur":235, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1788783161999655, "dur":130878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1788783162130534, "dur":453, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1788783162130990, "dur":140597, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1788783161797162, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1788783161797162, "dur":3164, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1788783161800346, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1788783161800458, "dur":1010, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1788783161801469, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1788783161801547, "dur":325, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1788783161801874, "dur":7482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1788783161809357, "dur":643, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1788783161810003, "dur":8846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1788783161818849, "dur":760, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1788783161819611, "dur":6624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1788783161826236, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1788783161826394, "dur":9148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1788783161835543, "dur":586, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1788783161836132, "dur":4642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1788783161840774, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1788783161840931, "dur":4416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1788783161845347, "dur":654, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1788783161846003, "dur":3667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1788783161849671, "dur":378, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1788783161850051, "dur":3869, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1788783161853921, "dur":255, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1788783161854178, "dur":4444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1788783161858624, "dur":443, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1788783161859070, "dur":1170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1788783161860242, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1788783161860382, "dur":38846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1788783161899229, "dur":196, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1788783161899428, "dur":243842, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1788783162143271, "dur":305, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1788783162143577, "dur":128013, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1788783161797283, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1788783161797284, "dur":3344, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1788783161800633, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1788783161800933, "dur":374, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1788783161801308, "dur":13398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1788783161814707, "dur":577, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1788783161815286, "dur":6213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1788783161821500, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1788783161821621, "dur":3548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1788783161825169, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1788783161825325, "dur":6637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1788783161831963, "dur":201, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1788783161832167, "dur":5222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1788783161837390, "dur":654, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1788783161838047, "dur":3947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1788783161841995, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1788783161842136, "dur":7958, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1788783161850095, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1788783161850204, "dur":3871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1788783161854076, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1788783161854185, "dur":4425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1788783161858611, "dur":347, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1788783161858962, "dur":193178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1788783162052141, "dur":398, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1788783162052544, "dur":218631, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1788783162271176, "dur":324, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1788783162271502, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":5, "ts":1788783162271503, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1788783161797269, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1788783161797269, "dur":3295, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1788783161800566, "dur":9704, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1788783161810271, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1788783161810420, "dur":8457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1788783161818877, "dur":986, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1788783161819865, "dur":7753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1788783161827620, "dur":578, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1788783161828200, "dur":3870, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1788783161832071, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1788783161832214, "dur":4479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1788783161836693, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1788783161836821, "dur":4076, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1788783161840898, "dur":198, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1788783161841098, "dur":4868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1788783161845967, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1788783161846094, "dur":5576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1788783161851670, "dur":167, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1788783161851839, "dur":4404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1788783161856244, "dur":238, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1788783161856484, "dur":78438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1788783161934923, "dur":655, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1788783161935583, "dur":31742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1788783161967325, "dur":296, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1788783161967624, "dur":159481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1788783162127106, "dur":268, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1788783162127376, "dur":144217, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1788783161797363, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1788783161797363, "dur":3000, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1788783161800369, "dur":437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1788783161800806, "dur":194, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1788783161801001, "dur":9879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1788783161810881, "dur":532, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1788783161811417, "dur":7195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1788783161818612, "dur":822, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1788783161819436, "dur":3883, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1788783161823320, "dur":493, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1788783161823815, "dur":4147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1788783161827963, "dur":534, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1788783161828499, "dur":3740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1788783161832240, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1788783161832363, "dur":4660, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1788783161837024, "dur":178, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1788783161837204, "dur":4415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1788783161841620, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1788783161841753, "dur":4230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1788783161845983, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1788783161846117, "dur":3895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1788783161850012, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1788783161850128, "dur":4358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1788783161854486, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1788783161854600, "dur":81405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1788783161936005, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1788783161936150, "dur":91580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1788783162027731, "dur":407, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1788783162028141, "dur":33886, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1788783162062029, "dur":527, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1788783162062560, "dur":1515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1788783162064091, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1788783162065333, "dur":3495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1788783162068862, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":7, "ts":1788783162068985, "dur":381, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1788783162069369, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1788783162069419, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1788783162069521, "dur":1905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1788783162071456, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":7, "ts":1788783162071485, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1788783162071495, "dur":1111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":7, "ts":1788783162072639, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1788783162072667, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1788783162072673, "dur":970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1788783162073671, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1788783162073706, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1788783162073715, "dur":1162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1788783162074907, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1788783162074935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1788783162074943, "dur":2058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1788783162077032, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1788783162077063, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1788783162077073, "dur":2113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1788783162079223, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1788783162079345, "dur":350, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1788783162079697, "dur":8944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1788783162088643, "dur":404, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1788783162089052, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1788783162089110, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1788783162089122, "dur":2226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1788783162091386, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1788783162091415, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1788783162091426, "dur":1197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1788783162092768, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/level3.resS" }}
+,{ "pid":12345, "tid":7, "ts":1788783162092825, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1788783162092836, "dur":1576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/level3.resS" }}
+,{ "pid":12345, "tid":7, "ts":1788783162094450, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/level3" }}
+,{ "pid":12345, "tid":7, "ts":1788783162094493, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1788783162094504, "dur":1376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/level3" }}
+,{ "pid":12345, "tid":7, "ts":1788783162095912, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1788783162095941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1788783162095948, "dur":798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1788783162096837, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1788783162096868, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1788783162096875, "dur":863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1788783162097765, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1788783162097815, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1788783162097822, "dur":1496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1788783162099349, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1788783162099378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1788783162099385, "dur":1493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1788783162100906, "dur":170643, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1788783161797223, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1788783161797224, "dur":3101, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1788783161800346, "dur":37492, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1788783161837839, "dur":1028, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1788783161838870, "dur":4607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1788783161843478, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1788783161843617, "dur":6159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1788783161849777, "dur":165, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1788783161849944, "dur":11299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1788783161861244, "dur":348, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1788783161861595, "dur":22029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1788783161883625, "dur":533, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1788783161884161, "dur":47638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1788783161931800, "dur":664, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1788783161932468, "dur":69865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1788783162002334, "dur":201, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1788783162002537, "dur":123929, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1788783162126467, "dur":453, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1788783162126923, "dur":144662, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1788783161797221, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1788783161797221, "dur":3106, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1788783161800346, "dur":11617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1788783161811964, "dur":705, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1788783161812671, "dur":6134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1788783161818805, "dur":1013, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1788783161819821, "dur":8010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1788783161827832, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1788783161827986, "dur":114959, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1788783161942945, "dur":844, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1788783161943791, "dur":33034, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":9, "ts":1788783161976826, "dur":236, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1788783161977065, "dur":165149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1788783162142215, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1788783162142375, "dur":129211, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1788783161797290, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1788783161797290, "dur":3142, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1788783161800449, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1788783161800568, "dur":419, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1788783161800989, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1788783161801079, "dur":342, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1788783161801422, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1788783161801558, "dur":431, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1788783161801990, "dur":52422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5).exe" }}
+,{ "pid":12345, "tid":10, "ts":1788783161854413, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1788783161854468, "dur":40349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":10, "ts":1788783161894817, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1788783161894970, "dur":28936, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1788783161923908, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1788783161924079, "dur":93065, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1788783162017145, "dur":396, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1788783162017546, "dur":102215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1788783162119763, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1788783162119969, "dur":151623, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1788783161797327, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1788783161797327, "dur":3068, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1788783161800399, "dur":817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1788783161801217, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1788783161801339, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1788783161801425, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1788783161801575, "dur":6127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1788783161807704, "dur":1059, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1788783161808766, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":11, "ts":1788783161808859, "dur":1205, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1788783161810066, "dur":8747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1788783161818814, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1788783161818956, "dur":4762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1788783161823719, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1788783161823828, "dur":5861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1788783161829689, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1788783161829845, "dur":5032, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1788783161834878, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1788783161835026, "dur":4026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1788783161839053, "dur":350, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1788783161839405, "dur":4440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1788783161843846, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1788783161843961, "dur":4073, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1788783161848035, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1788783161848183, "dur":4191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1788783161852374, "dur":223, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1788783161852599, "dur":3431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1788783161856031, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1788783161856237, "dur":66817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1788783161923056, "dur":562, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1788783161923621, "dur":125943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1788783162049566, "dur":537, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1788783162050107, "dur":216472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1788783162266580, "dur":2121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1788783162268705, "dur":2853, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1788783161797318, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1788783161797318, "dur":3133, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1788783161800457, "dur":10819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1788783161811276, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1788783161811422, "dur":7150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1788783161818573, "dur":528, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1788783161819102, "dur":4319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1788783161823421, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1788783161823560, "dur":4354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1788783161827914, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1788783161828052, "dur":3900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1788783161831954, "dur":270, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1788783161832226, "dur":6468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1788783161838695, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1788783161838832, "dur":3931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1788783161842764, "dur":201, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1788783161842968, "dur":3732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1788783161846700, "dur":669, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1788783161847372, "dur":4270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1788783161851642, "dur":196, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1788783161851841, "dur":4185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1788783161856027, "dur":252, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1788783161856281, "dur":61000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1788783161917283, "dur":229, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1788783161917516, "dur":177086, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1788783162094603, "dur":465, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1788783162095071, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/level2.resS" }}
+,{ "pid":12345, "tid":12, "ts":1788783162095121, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1788783162095130, "dur":963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/level2.resS" }}
+,{ "pid":12345, "tid":12, "ts":1788783162096118, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/level1.resS" }}
+,{ "pid":12345, "tid":12, "ts":1788783162096143, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1788783162096149, "dur":1071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/level1.resS" }}
+,{ "pid":12345, "tid":12, "ts":1788783162097248, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/level0.resS" }}
+,{ "pid":12345, "tid":12, "ts":1788783162097278, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1788783162097284, "dur":1362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/level0.resS" }}
+,{ "pid":12345, "tid":12, "ts":1788783162098674, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":12, "ts":1788783162098705, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1788783162098713, "dur":1455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":12, "ts":1788783162100199, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tanku/OneDrive//unity game/zisaku game/My project (5)_Data/boot.config" }}
+,{ "pid":12345, "tid":12, "ts":1788783162100312, "dur":486, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1788783162100800, "dur":170791, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1788783162274670, "dur":1388, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1788783162296091, "dur": 284, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1788783162295580, "dur": 807, "ph": "X", "name": "Write chrome-trace events", "args": {} },
