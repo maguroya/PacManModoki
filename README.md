@@ -14,3 +14,5 @@ Unity(c#)で制作したパックマン風ゲームです。wasdで操作可能�
 ##使用技術
 　Unity
 　c#
+##exeファイルurl
+https://drive.google.com/drive/folders/1gh-4JJS7YMUxvMDNfP_ZJgBycWv5_mob
